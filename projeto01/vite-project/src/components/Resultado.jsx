@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Dados=(Resultados)=>{
+const Dados=(resultado)=>{
 
   if(resultado < 18.5){
     return(
@@ -57,7 +57,7 @@ const Dados=(Resultados)=>{
 }
 
 //passando a props ( acessando as propriedades do elemento)
-const Resultado = () => {
+const Resultado = ({resultado}) => {
   
   return (
     //fragments
