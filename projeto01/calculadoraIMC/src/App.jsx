@@ -1,6 +1,8 @@
 import {useState, useEffect} from 'react'
 import Header from './components/Header'
 import Resultado from './components/Resultado'
+import './css/base.css'
+import './css/app.css'
 
 function App() {
 

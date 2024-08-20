@@ -1,0 +1,39 @@
+/*variaveis*/
+
+:root{
+    --font-color1:#fff;
+    --font-color2:#000;
+    --font-color3:#0059ff;
+    --font-color4:#030436;
+    --font-color5:#f2f2f2;
+    --bg-color1:#0059ff;
+    --bg-color2:#f2f2f2;
+}
+/*reset básico*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-color1);
+}
+
+.container{
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*respansividade*/
+
+@media(max-width: 500px){
+    .container{
+        justify-content: start;
+        padding: 15px;
+    }
+}

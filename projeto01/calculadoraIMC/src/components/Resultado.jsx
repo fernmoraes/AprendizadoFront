@@ -1,4 +1,6 @@
 import React from 'react'
+import '../css/base.css'
+import '../css/resultado.css'
 
 const Dados=(resultado)=>{
 
@@ -19,9 +21,9 @@ const Dados=(resultado)=>{
       <>
       <td>
         Peso Normal
-        <td>
-          18.5 - 24.9
-        </td>
+      </td>
+      <td>
+        18.5 - 24.9
       </td>
       </>
     )
@@ -62,14 +64,14 @@ const Resultado = ({resultado}) => {
   return (
     //fragments
     <>
-    <div className='resultado'>
+    <div className="resultado">
       <h2>
         Seu IMC é:
-        <span className='imcSpan'>{resultado}</span>
+        <span className="imcSpan">{resultado}</span>
       </h2>   
     </div>
-    <table className='table'>
-      <thead className='tableHeader'>
+    <table className="table">
+      <thead className="tableHeader">
         <tr>
           <th>
             Classificação
@@ -79,7 +81,7 @@ const Resultado = ({resultado}) => {
           </th>
         </tr>
       </thead>
-      <tbody className='tableBody'>
+      <tbody className="tableBody">
         <tr>
           {Dados(resultado)}
         </tr>
