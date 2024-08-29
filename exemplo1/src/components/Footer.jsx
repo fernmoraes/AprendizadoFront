@@ -1,7 +1,7 @@
 const Footer=()=>{
     return(
         <>
-            <h5>Todos os direitos reservados</h5>
+            <h5>@Todos os direitos reservados</h5>
         </>
     )
 }
