@@ -44,7 +44,7 @@ main{
 }
 
 .produto-item img{
-     max-width: 60%;
+     max-width: 70%;
      margin-bottom: 1rem;
      transition: .5s;
      border-radius: 40px;
@@ -75,4 +75,10 @@ main{
     display: flex;
     width:100%;
     justify-content: space-evenly;
+}
+.span-row-2{
+    grid-row: span 2;
+}
+.span-col-2{
+    grid-column: span 2;
 }
