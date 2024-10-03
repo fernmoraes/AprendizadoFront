@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "usuario": "teste",
+      "senha": "1234",
+      "id": "aec2"
+    },
+    {
+      "id": "8087",
+      "usuario": "teste",
+      "senha": "111"
+    },
+    {
+      "id": "a82c",
+      "usuario": "Cidade2",
+      "senha": "123452"
+    },
+    {
+      "id": "d03c",
+      "usuario": "teste",
+      "senha": "wwww"
+    },
+    {
+      "id": "7fbb",
+      "usuario": "teste",
+      "senha": "wwww"
+    },
+    {
+      "id": "e1d4",
+      "usuario": "teste1",
+      "senha": "www"
+    }
+  ]
+}
